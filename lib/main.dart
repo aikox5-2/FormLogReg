@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       // Widget ThemeData
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFF1E4D2B), // Tema Hijau Tua (Absen Ganjil 3)
+          seedColor: const Color(0xFF1E4D2B), 
           primary: const Color(0xFF1E4D2B),
         ),
         useMaterial3: true,

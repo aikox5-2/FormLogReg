@@ -311,7 +311,7 @@ class _LoginFormState extends State<LoginForm> {
                         // Widget OutlinedButton
                         child: OutlinedButton(
                           onPressed: () {
-                            // Widget Navigator
+                            // Widget 2tor
                             Navigator.push(
                               context,
                               MaterialPageRoute(

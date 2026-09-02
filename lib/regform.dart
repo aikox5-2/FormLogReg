@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'logform.dart';
 
 // Widget StatefulWidget
 class RegForm extends StatefulWidget {
@@ -594,7 +595,12 @@ class _RegFormState extends State<RegForm> {
                 TextButton(
                   onPressed: () {
                     // Widget Navigator
-                    Navigator.pop(context);
+                    Navigator.pushReplacement(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const LoginForm(),
+                      ),
+                    );
                   },
                   // Widget Text
                   child: const Text(
