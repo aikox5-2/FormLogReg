@@ -611,6 +611,8 @@ class _RegFormState extends State<RegForm> {
                       fontSize: 14,
                     ),
                   ),
+
+  
                 ),
               ],
             ),
@@ -620,3 +622,4 @@ class _RegFormState extends State<RegForm> {
     );
   }
 }
+
